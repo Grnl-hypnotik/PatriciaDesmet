@@ -1,0 +1,90 @@
+//
+// Typographie
+//
+
+body {
+    font-family: 'Open Sans';
+}
+
+@media (max-width: 575.98px) {
+
+    body {
+        font-size: .75rem;
+    }
+
+    h1, .h1 {
+        font-size: 1.75rem;
+    }
+
+    h2, .h2 {
+        font-size: 1rem;
+    }
+
+    h3, .h3 {
+        font-size: .90rem;
+    }
+
+    h4, .h4 {
+        font-size: .75rem;
+    }
+
+    .display-1 {
+        font-size: 2.75rem;
+    }
+
+}
+
+.text__color--primary{
+    color: $primary;
+}
+
+.text__color--tertiary{
+    color: $tertiary;
+}
+
+//
+// Marges
+//
+
+.wrapper {
+    padding: 15px 0;
+}
+
+//
+// Supression du bouton read more
+//
+
+.understrap-read-more-link {
+    display: none;
+}
+
+//
+// Position menu
+//
+
+@media (max-width: 575.98px) {
+    .site {
+        position: relative;
+        & #wrapper-navbar {
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+    }
+}
+
+//
+// Block
+//
+
+.block__text{
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: rgba($color: $primary, $alpha: .85);
+    h2, p {
+        color: $tertiary;
+    }
+    :last-child {
+        margin-bottom: 0;
+    }
+}
