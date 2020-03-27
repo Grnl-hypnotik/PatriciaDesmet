@@ -3,42 +3,44 @@
 //
 
 body {
-    font-family: 'Open Sans';
+    * {
+        font-family: 'Open Sans' !important;
+    }
 }
 
 @media (max-width: 575.98px) {
 
     body {
-        font-size: .75rem;
-    }
-
-    h1, .h1 {
-        font-size: 1.75rem;
-    }
-
-    h2, .h2 {
-        font-size: 1rem;
-    }
-
-    h3, .h3 {
-        font-size: .90rem;
-    }
-
-    h4, .h4 {
-        font-size: .75rem;
+        font-size: 10px !important;
     }
 
     .display-1 {
-        font-size: 2.75rem;
+        font-size: 42px;
+    }
+
+    .display-2 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    h4 {
+        font-size: 12px;
     }
 
 }
 
-.text__color--primary{
+.text__color--primary {
     color: $primary;
 }
 
-.text__color--tertiary{
+.text__color--tertiary {
     color: $tertiary;
 }
 
@@ -47,44 +49,357 @@ body {
 //
 
 .wrapper {
-    padding: 15px 0;
+    padding: 0;
 }
 
 //
-// Supression du bouton read more
+// Menu
 //
 
-.understrap-read-more-link {
-    display: none;
+.site {
+    & #wrapper-navbar {
+        z-index: 10000;
+        top: 0;
+    }
 }
-
-//
-// Position menu
-//
 
 @media (max-width: 575.98px) {
     .site {
-        position: relative;
         & #wrapper-navbar {
-            width: 100%;
-            position: fixed;
+            top: initial;
             bottom: 0;
         }
     }
 }
 
+
 //
-// Block
+// Forms
 //
 
-.block__text{
-    padding: 1rem;
-    border-radius: .5rem;
-    background-color: rgba($color: $primary, $alpha: .85);
-    h2, p {
-        color: $tertiary;
+.wpcf7 {
+    max-width: 100% !important;
+    margin: 0 !important;
+    & input[type=text],
+    & input[type=email],
+    & input[type=tel] {
+        height: auto;
+        padding: .5rem;
     }
-    :last-child {
-        margin-bottom: 0;
+    & textarea {
+        padding: .5rem;
+    }
+    & input[type=submit] {
+        color: $primary;
+        background-color: #fff;
+        border-color: none;
+        &:hover {
+            color: #fff;
+            background-color: $primary;
+        }
+        &:disabled {
+            color: #000 !important;
+            background-color: #f1f1f1;
+        }
     }
 }
+
+//
+// Block et background
+//
+
+#homeIntro {
+    height: 100vh !important;
+    background-image: url("http://patriciadesmet/wp-content/uploads/2020/02/AdobeStock_296904172_Preview.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media (max-width: 575.98px) {
+        height: inherit !important;
+        min-height: 100vh !important;
+    }
+}
+
+#accompagnementIntro {
+    height: 100vh !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media (max-width: 575.98px) {
+        height: inherit !important;
+        min-height: 100vh !important;
+        background-position: left;
+    }
+}
+
+#approchesIntro {
+    height: 100vh !important;
+    background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_284566710_Preview.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media (max-width: 575.98px) {
+        height: inherit !important;
+        min-height: 100vh !important;
+        background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_252440632_Preview.jpeg");
+    }
+}
+
+#infosIntro {
+    height: 100vh !important;
+    background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_322382519_Preview.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media (max-width: 575.98px) {
+        height: inherit !important;
+        min-height: 100vh !important;
+    }
+}
+
+#changementCourtTerme {
+    height: 100vh !important;
+    background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_234707772_Preview.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media (max-width: 575.98px) {
+        height: inherit !important;
+        min-height: 100vh !important;
+    }
+}
+
+#acteurDuChangement {
+    height: 100vh !important;
+    background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_290045565_Preview.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media (max-width: 575.98px) {
+        height: inherit !important;
+        min-height: 100vh !important;
+    }
+}
+
+#homeApproches {
+    height: 100vh !important;
+    background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_287427042_Preview.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media (max-width: 575.98px) {
+        height: inherit !important;
+        min-height: 100vh !important;
+    }
+}
+
+#testimonial {
+    height: 100vh !important;
+    background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_263258205_Preview.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media (max-width: 575.98px) {
+        height: inherit !important;
+        min-height: 100vh !important;
+    }
+}
+
+#situationAccompagnement {
+    min-height: 100vh !important;
+    background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_311163647_Preview.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#hypnose {
+    height: 100vh !important;
+    background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_158982218_Preview.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media (max-width: 575.98px) {
+        height: inherit !important;
+        min-height: 100vh !important;
+    }
+}
+
+#pnl {
+    height: 100vh !important;
+    background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_272679579_Preview.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media (max-width: 575.98px) {
+        height: inherit !important;
+        min-height: 100vh !important;
+    }
+}
+
+#coaching {
+    height: 100vh !important;
+    background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_234750128_Preview.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @media (max-width: 575.98px) {
+        height: inherit !important;
+        min-height: 100vh !important;
+        background-position: right;
+    }
+}
+
+#formContact {
+    height: 100vh !important;
+    @media (max-width: 575.98px) {
+        height: inherit !important;
+        min-height: 100vh !important;
+    }
+}
+
+#lieu {
+    height: 100vh !important;
+    @media (max-width: 575.98px) {
+        height: inherit !important;
+        min-height: 100vh !important;
+    }
+}
+
+.block__primary {
+    background-color: rgba($color: $primary, $alpha: .85);
+    color: $tertiary !important;
+    transition: .3s linear;
+    a {
+        color: $tertiary !important;
+    }
+    &:hover {
+        background-color: rgba($color: $primary, $alpha: 1);
+    }
+}
+
+.background__primary {
+    background-color: $primary;
+    color: $tertiary;
+    a {
+        color: $tertiary !important;
+    }
+}
+
+//
+// Images
+//
+
+.ImageOverlayTitle {
+    position: relative;
+    width: 100%;
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); /* Black see-through */
+        color: #f1f1f1;
+        width: 100%;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+        @media (max-width: 575.98px) {
+            opacity: 1;
+        }
+    }
+    &:hover .overlay {
+        opacity: 1;
+    }
+    @media (max-width: 575.98px) {
+        margin-bottom: 1rem;
+    }
+}
+
+//
+// Boutons
+//
+
+.btn-tertiary {
+    color: $tertiary;
+    border-color: $tertiary;
+    &:hover {
+        color: $primary;
+        background-color: $tertiary;
+        border-color: none;
+    }
+}
+
+//
+// Footer
+//
+
+.entry-footer {
+    display: none;
+}
+
+.wrapper-footer {
+    height: 50vh;
+    background-color: $secondary;
+    .menu-footer,
+    .menu-contact {
+        a {
+            color: $tertiary;
+        }
+    }
+}
+
+//
+// Text animation
+//
+
+#homeIntro {
+    h1 {
+        font-size: 92px;
+        animation: fadeInDown 1s ease-in-out;
+    }
+}
+
+//
+// Keyframes
+//
+
+@-webkit-keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+  }

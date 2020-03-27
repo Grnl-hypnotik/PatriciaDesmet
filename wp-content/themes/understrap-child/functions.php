@@ -31,3 +31,18 @@ function add_child_theme_textdomain() {
     load_child_theme_textdomain( 'understrap-child', get_stylesheet_directory() . '/languages' );
 }
 add_action( 'after_setup_theme', 'add_child_theme_textdomain' );
+
+function register_my_menu() {
+    register_nav_menu('menu-footer',__( 'Menu Footer' ));
+  }
+  add_action( 'init', 'register_my_menu' );
+
+function wpb_custom_new_menu() {
+register_nav_menus(
+    array(
+    'menu-footer' => __( 'Menu Footer' ),
+    'menu-contact' => __( 'Menu Contact' )
+    )
+);
+}
+add_action( 'init', 'wpb_custom_new_menu' );
