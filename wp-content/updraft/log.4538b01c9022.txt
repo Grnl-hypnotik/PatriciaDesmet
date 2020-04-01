@@ -1,0 +1,238 @@
+0000.001 (0) Opened log file at time: Mon, 30 Mar 2020 11:52:10 +0000 on http://patriciadesmet
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.22 WP: 5.3.2 PHP: 7.2.18 (apache2handler, Windows NT DESKTOP-1NAVRVQ 10.0 build 18363 (Windows 10) AMD64) MySQL: 5.7.26 WPLANG: fr_FR Server: Apache/2.4.39 (Win64) PHP/7.2.18 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 18.2M | 2M) multisite: N openssl: OpenSSL 1.1.1b  26 Feb 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 788601 MB
+0000.008 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.026 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.049 (0) Set semaphore last lock (fd) time to 2020-03-30 11:52:10
+0000.050 (0) Semaphore lock (fd) complete
+0000.053 (0) Backup run: resumption=0, nonce=4538b01c9022, file_nonce=4538b01c9022 begun at=1585569130 (0s ago), job type=backup
+0000.055 (0) Scheduling a resumption (1) after 300 seconds (1585569430) in case this run gets aborted
+0000.099 (0) Checking if we have a zip executable available
+0000.101 (0) Creation of backups of directories: beginning
+0000.107 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0004.889 (0) Total entities for the zip file: 608 directories, 3773 files (0 skipped as non-modified), 75.8 MB
+0004.893 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0006.713 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 100 files added (on-disk size: 104.9 KB)
+0007.251 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.2 MB, 144 (145) files added so far); re-opening (prior size: 104.9 KB)
+0007.645 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 200 files added (on-disk size: 1295.3 KB)
+0009.729 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 300 files added (on-disk size: 1295.3 KB)
+0010.250 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.5 MB, 213 (358) files added so far); re-opening (prior size: 1295.3 KB)
+0013.297 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 35 (393) files added so far); re-opening (prior size: 2839.1 KB)
+0013.471 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 400 files added (on-disk size: 3036.2 KB)
+0014.416 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 500 files added (on-disk size: 3036.2 KB)
+0014.962 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 600 files added (on-disk size: 3036.2 KB)
+0016.244 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.5 MB, 288 (681) files added so far); re-opening (prior size: 3036.2 KB)
+0017.262 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 700 files added (on-disk size: 4551.1 KB)
+0018.480 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 800 files added (on-disk size: 4551.1 KB)
+0019.243 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (6.6 MB, 195 (876) files added so far); re-opening (prior size: 4551.1 KB)
+0020.602 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 900 files added (on-disk size: 6829.9 KB)
+0022.313 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.1 MB, 104 (980) files added so far); re-opening (prior size: 6829.9 KB)
+0022.763 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 1000 files added (on-disk size: 7147.3 KB)
+0024.555 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 1100 files added (on-disk size: 7147.3 KB)
+0025.246 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.3 MB, 213 (1193) files added so far); re-opening (prior size: 7147.3 KB)
+0025.555 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 1200 files added (on-disk size: 7658.3 KB)
+0026.970 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 1300 files added (on-disk size: 7658.3 KB)
+0028.237 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.1 MB, 174 (1367) files added so far); re-opening (prior size: 7658.3 KB)
+0029.023 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 1400 files added (on-disk size: 8027.7 KB)
+0031.365 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 120 (1487) files added so far); re-opening (prior size: 8027.7 KB)
+0032.005 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 1500 files added (on-disk size: 8212.8 KB)
+0033.557 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 1600 files added (on-disk size: 8212.8 KB)
+0034.602 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.4 MB, 161 (1648) files added so far); re-opening (prior size: 8212.8 KB)
+0035.578 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 1700 files added (on-disk size: 8917.1 KB)
+0036.933 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 1800 files added (on-disk size: 8917.1 KB)
+0037.240 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.7 MB, 168 (1816) files added so far); re-opening (prior size: 8917.1 KB)
+0038.600 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 1900 files added (on-disk size: 10971.3 KB)
+0039.980 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 2000 files added (on-disk size: 10971.3 KB)
+0040.247 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3 MB, 203 (2019) files added so far); re-opening (prior size: 10971.3 KB)
+0040.768 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 2100 files added (on-disk size: 11962.3 KB)
+0042.882 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 2200 files added (on-disk size: 11962.3 KB)
+0043.246 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.2 MB, 212 (2231) files added so far); re-opening (prior size: 11962.3 KB)
+0044.918 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 2300 files added (on-disk size: 13195.5 KB)
+0045.972 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 2400 files added (on-disk size: 13195.5 KB)
+0046.249 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (14.4 MB, 201 (2432) files added so far); re-opening (prior size: 13195.5 KB)
+0048.768 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 2500 files added (on-disk size: 16960.1 KB)
+0049.794 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 2600 files added (on-disk size: 16960.1 KB)
+0050.240 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 203 (2635) files added so far); re-opening (prior size: 16960.1 KB)
+0051.413 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 2700 files added (on-disk size: 17156.9 KB)
+0052.606 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 2800 files added (on-disk size: 17156.9 KB)
+0053.244 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.2 MB, 228 (2863) files added so far); re-opening (prior size: 17156.9 KB)
+0054.033 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 2900 files added (on-disk size: 17578.6 KB)
+0055.383 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 3000 files added (on-disk size: 17578.6 KB)
+0056.237 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 200 (3063) files added so far); re-opening (prior size: 17578.6 KB)
+0057.251 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 3100 files added (on-disk size: 17806.9 KB)
+0058.384 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 3200 files added (on-disk size: 17806.9 KB)
+0059.241 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.5 MB, 190 (3253) files added so far); re-opening (prior size: 17806.9 KB)
+0060.606 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 3300 files added (on-disk size: 18216.5 KB)
+0062.235 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.6 MB, 139 (3392) files added so far); re-opening (prior size: 18216.5 KB)
+0063.013 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 3400 files added (on-disk size: 20956.2 KB)
+0063.425 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 3500 files added (on-disk size: 20956.2 KB)
+0064.203 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 3600 files added (on-disk size: 20956.2 KB)
+0065.247 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (8.6 MB, 295 (3687) files added so far); re-opening (prior size: 20956.2 KB)
+0066.360 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip.tmp: 3700 files added (on-disk size: 24975.8 KB)
+0068.738 (0) Created plugins zip (0) - 27123.4 KB in 68.6 s (395.2 KB/s) (sha1: ac1827b49f2dd5b113ef50c8652a1a60600ce411, sha256: 13b88ded3e1dbf8981f0b733efe6b8780ec222d98dca129f49436d517c9407cc)
+0068.743 (0) Beginning creation of dump of themes (split every: 400 MB)
+0069.113 (0) Total entities for the zip file: 55 directories, 418 files (0 skipped as non-modified), 8.9 MB
+0070.802 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0071.253 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.1 MB, 130 (130) files added so far); re-opening (prior size: 0 KB)
+0072.178 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-themes.zip.tmp: 200 files added (on-disk size: 1744.9 KB)
+0074.002 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-themes.zip.tmp: 300 files added (on-disk size: 1744.9 KB)
+0074.240 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.6 MB, 190 (320) files added so far); re-opening (prior size: 1744.9 KB)
+0075.070 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-themes.zip.tmp: 400 files added (on-disk size: 3016.3 KB)
+0075.223 (0) Created themes zip (0) - 3105.8 KB in 6.5 s (479.7 KB/s) (sha1: fe88b753b3c0716be8dbb6d892aeec3e8ec2dc11, sha256: 4c2fab906091f47ac8ffeaab77cdf19db9b4503bd3d7ef88f61830b0da4e2863)
+0075.230 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0075.231 (0) Looking for candidates to backup in: D:\wamp64\www\sitePat\PatriciaDesmet/wp-content/uploads
+0075.232 (0) finding files: 2019: adding to list (1)
+0075.233 (0) finding files: 2020: adding to list (2)
+0075.234 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0075.573 (0) Total entities for the zip file: 5 directories, 106 files (0 skipped as non-modified), 8.8 MB
+0077.859 (0) Zip: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0078.365 (0) Created uploads zip (0) - 9044.3 KB in 3.1 s (2893.2 KB/s) (sha1: 95f827d598dbb4720e4bbd9cde15fe6589c5c5c9, sha256: d43aea85558ec42efa3534eb6a8978cb2f3a7e4fe295f824b9036a9db49dff09)
+0078.369 (0) Beginning backup of other directories found in the content directory (index: 0)
+0078.370 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0078.371 (0) Looking for candidates to backup in: D:\wamp64\www\sitePat\PatriciaDesmet/wp-content
+0078.372 (0) finding files: index.php: adding to list (1)
+0078.373 (0) finding files: languages: adding to list (2)
+0078.373 (0) finding files: plugins: skipping: this is the plugins directory
+0078.374 (0) finding files: themes: skipping: this is the themes directory
+0078.375 (0) finding files: updraft: skipping: this is the updraft directory
+0078.376 (0) finding files: upgrade: skipping: excluded by options
+0078.377 (0) finding files: uploads: skipping: this is the uploads directory
+0078.399 (0) Total entities for the zip file: 3 directories, 47 files (0 skipped as non-modified), 4.3 MB
+0079.490 (0) Created others zip (0) - 1242.8 KB in 1.1 s (1121.2 KB/s) (sha1: 35d8377830516a70482948afb13dd3bbf3ef645f, sha256: 0e81698695c6a27fd505d6d9124375c911f8766499b9f89baf493fd539c3623e)
+0079.497 (0) Saving backup status to database (elements: 8)
+0079.500 (0) Beginning creation of database dump (WordPress DB)
+0079.837 (0) Table pd_options: Total expected rows (approximate): 281
+0079.887 (0) Table pd_options: Total rows added: 275 in 0.05 seconds
+0079.893 (0) Table pd_options: finishing file (backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_options.table.gz - 229.8 KB)
+0079.907 (0) Table pd_users: Total expected rows (approximate): 1
+0079.911 (0) Table pd_users: Total rows added: 1 in 0.00 seconds
+0079.916 (0) Table pd_users: finishing file (backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_users.table.gz - 0.6 KB)
+0079.921 (0) Table pd_usermeta: Total expected rows (approximate): 35
+0079.924 (0) Table pd_usermeta: Total rows added: 35 in 0.00 seconds
+0079.930 (0) Table pd_usermeta: finishing file (backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_usermeta.table.gz - 1.7 KB)
+0079.935 (0) Table pd_commentmeta: Total expected rows (approximate): 0
+0079.937 (0) Table pd_commentmeta: Total rows added: 0 in 0.00 seconds
+0079.943 (0) Table pd_commentmeta: finishing file (backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_commentmeta.table.gz - 0.4 KB)
+0079.948 (0) Table pd_comments: Total expected rows (approximate): 0
+0079.951 (0) Table pd_comments: Total rows added: 0 in 0.00 seconds
+0079.955 (0) Table pd_comments: finishing file (backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_comments.table.gz - 0.5 KB)
+0079.966 (0) Table pd_links: Total expected rows (approximate): 0
+0079.968 (0) Table pd_links: Total rows added: 0 in 0.00 seconds
+0079.973 (0) Table pd_links: finishing file (backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_links.table.gz - 0.4 KB)
+0079.980 (0) Table pd_postmeta: Total expected rows (approximate): 247
+0079.987 (0) Table pd_postmeta: Total rows added: 247 in 0.01 seconds
+0079.995 (0) Table pd_postmeta: finishing file (backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_postmeta.table.gz - 11.4 KB)
+0080.001 (0) Table pd_posts: Total expected rows (approximate): 839
+0080.855 (0) Table pd_posts: Total rows added: 839 in 0.85 seconds
+0080.862 (0) Table pd_posts: finishing file (backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_posts.table.gz - 147.6 KB)
+0080.867 (0) Table pd_term_relationships: Total expected rows (approximate): 11
+0080.869 (0) Table pd_term_relationships: Total rows added: 11 in 0.00 seconds
+0080.874 (0) Table pd_term_relationships: finishing file (backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_term_relationships.table.gz - 0.4 KB)
+0080.880 (0) Table pd_term_taxonomy: Total expected rows (approximate): 4
+0080.883 (0) Table pd_term_taxonomy: Total rows added: 4 in 0.00 seconds
+0080.887 (0) Table pd_term_taxonomy: finishing file (backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_term_taxonomy.table.gz - 0.5 KB)
+0080.964 (0) Table pd_termmeta: Total expected rows (approximate): 0
+0080.966 (0) Table pd_termmeta: Total rows added: 0 in 0.00 seconds
+0080.971 (0) Table pd_termmeta: finishing file (backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_termmeta.table.gz - 0.4 KB)
+0080.976 (0) Table pd_terms: Total expected rows (approximate): 4
+0080.979 (0) Table pd_terms: Total rows added: 4 in 0.00 seconds
+0080.984 (0) Table pd_terms: finishing file (backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_terms.table.gz - 0.5 KB)
+0080.989 (0) Table pd_duplicator_packages: Total expected rows (approximate): 1
+0080.992 (0) Table pd_duplicator_packages: Total rows added: 1 in 0.00 seconds
+0080.998 (0) Table pd_duplicator_packages: finishing file (backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_duplicator_packages.table.gz - 2.2 KB)
+0081.003 (0) Table pd_wpgmza: Total expected rows (approximate): 1
+0081.005 (0) Table pd_wpgmza: Total rows added: 1 in 0.00 seconds
+0081.012 (0) Table pd_wpgmza: finishing file (backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_wpgmza.table.gz - 0.6 KB)
+0081.048 (0) Table pd_wpgmza_circles: Total expected rows (approximate): 0
+0081.050 (0) Table pd_wpgmza_circles: Total rows added: 0 in 0.00 seconds
+0081.055 (0) Table pd_wpgmza_circles: finishing file (backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_wpgmza_circles.table.gz - 0.4 KB)
+0081.084 (0) Table pd_wpgmza_maps: Total expected rows (approximate): 1
+0081.086 (0) Table pd_wpgmza_maps: Total rows added: 1 in 0.00 seconds
+0081.091 (0) Table pd_wpgmza_maps: finishing file (backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_wpgmza_maps.table.gz - 0.8 KB)
+0081.112 (0) Table pd_wpgmza_polygon: Total expected rows (approximate): 0
+0081.114 (0) Table pd_wpgmza_polygon: Total rows added: 0 in 0.00 seconds
+0081.119 (0) Table pd_wpgmza_polygon: finishing file (backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_wpgmza_polygon.table.gz - 0.4 KB)
+0081.160 (0) Table pd_wpgmza_polylines: Total expected rows (approximate): 0
+0081.162 (0) Table pd_wpgmza_polylines: Total rows added: 0 in 0.00 seconds
+0081.168 (0) Table pd_wpgmza_polylines: finishing file (backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_wpgmza_polylines.table.gz - 0.4 KB)
+0081.195 (0) Table pd_wpgmza_rectangles: Total expected rows (approximate): 0
+0081.197 (0) Table pd_wpgmza_rectangles: Total rows added: 0 in 0.00 seconds
+0081.203 (0) Table pd_wpgmza_rectangles: finishing file (backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_wpgmza_rectangles.table.gz - 0.3 KB)
+0081.207 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_options.table.gz (1/19): adding to final database dump
+0081.241 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_users.table.gz (2/19): adding to final database dump
+0081.243 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_usermeta.table.gz (3/19): adding to final database dump
+0081.245 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_commentmeta.table.gz (4/19): adding to final database dump
+0081.247 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_comments.table.gz (5/19): adding to final database dump
+0081.248 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_links.table.gz (6/19): adding to final database dump
+0081.249 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_postmeta.table.gz (7/19): adding to final database dump
+0081.253 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_posts.table.gz (8/19): adding to final database dump
+0081.319 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_term_relationships.table.gz (9/19): adding to final database dump
+0081.320 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_term_taxonomy.table.gz (10/19): adding to final database dump
+0081.321 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_termmeta.table.gz (11/19): adding to final database dump
+0081.322 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_terms.table.gz (12/19): adding to final database dump
+0081.324 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_duplicator_packages.table.gz (13/19): adding to final database dump
+0081.325 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_wpgmza.table.gz (14/19): adding to final database dump
+0081.326 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_wpgmza_circles.table.gz (15/19): adding to final database dump
+0081.328 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_wpgmza_maps.table.gz (16/19): adding to final database dump
+0081.329 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_wpgmza_polygon.table.gz (17/19): adding to final database dump
+0081.330 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_wpgmza_polylines.table.gz (18/19): adding to final database dump
+0081.331 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db-table-pd_wpgmza_rectangles.table.gz (19/19): adding to final database dump
+0081.333 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db.gz: finished writing out complete database file (376 KB)
+0081.349 (0) Total database tables backed up: 19 (backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db.gz, size: 403706, sha1: 31d25b9f704a54fd3c7b3f92fd31dfe4c74a0156, sha256: 804b39c4e7786b824428b64cecd5c01a2b50b1145452b3123cd01d8aab539218)
+0081.355 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0081.356 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0081.357 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0081.358 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-others.zip: others: This file has not yet been successfully uploaded: will queue
+0081.359 (0) backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db.gz: db: This file has not yet been successfully uploaded: will queue
+0081.360 (0) Saving backup history. Total backup size: 40 MB
+0081.363 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0081.366 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0081.366 (0) No remote despatch: user chose no remote backup service
+0081.367 (0) Recording as successfully uploaded: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-plugins.zip
+0081.369 (0) Recording as successfully uploaded: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-themes.zip
+0081.371 (0) Recording as successfully uploaded: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-uploads.zip
+0081.373 (0) Recording as successfully uploaded: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-others.zip
+0081.374 (0) Recording as successfully uploaded: backup_2020-03-30-1352_Patricia_Desmet_4538b01c9022-db.gz
+0081.379 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0081.381 (0) Number of backup sets in history: 4; groups (db): 1
+0081.381 (0) Examining (for databases) backup set with group_id=0, nonce=4538b01c9022, datestamp=1585569130 (Mar 30 2020 11:52:10)
+0081.382 (0) This backup set is the backup set just made, so will not be deleted.
+0081.382 (0) Examining (for databases) backup set with group_id=0, nonce=122de4dee650, datestamp=1585499192 (Mar 29 2020 16:26:32)
+0081.382 (0) This backup set (1585499192) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0081.382 (0) Examining (for databases) backup set with group_id=0, nonce=519fd1f0a714, datestamp=1585390019 (Mar 28 2020 10:06:59)
+0081.382 (0) This backup set (1585390019) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0081.382 (0) Examining (for databases) backup set with group_id=0, nonce=60eb5ea6fc66, datestamp=1585151495 (Mar 25 2020 15:51:35)
+0081.382 (0) This backup set (1585151495) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0081.382 (0) Number of backup sets in history: 4; groups (files): 1
+0081.383 (0) Examining (for files) backup set with nonce=4538b01c9022, datestamp=1585569130 (Mar 30 2020 11:52:10)
+0081.383 (0) This backup set is the backup set just made, so will not be deleted.
+0081.384 (0) This backup set is the backup set just made, so will not be deleted.
+0081.384 (0) This backup set is the backup set just made, so will not be deleted.
+0081.384 (0) This backup set is the backup set just made, so will not be deleted.
+0081.384 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0081.385 (0) Examining (for files) backup set with nonce=122de4dee650, datestamp=1585499192 (Mar 29 2020 16:26:32)
+0081.385 (0) This backup set (1585499192) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0081.385 (0) This backup set (1585499192) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0081.385 (0) This backup set (1585499192) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0081.385 (0) This backup set (1585499192) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0081.385 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0081.385 (0) Examining (for files) backup set with nonce=519fd1f0a714, datestamp=1585390019 (Mar 28 2020 10:06:59)
+0081.385 (0) This backup set (1585390019) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0081.385 (0) This backup set (1585390019) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0081.385 (0) This backup set (1585390019) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0081.385 (0) This backup set (1585390019) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0081.385 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0081.386 (0) Examining (for files) backup set with nonce=60eb5ea6fc66, datestamp=1585151495 (Mar 25 2020 15:51:35)
+0081.386 (0) This backup set (1585151495) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0081.386 (0) This backup set (1585151495) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0081.386 (0) This backup set (1585151495) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0081.386 (0) This backup set (1585151495) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0081.386 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0081.386 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0081.388 (0) Resume backup (4538b01c9022, 0): finish run
+0081.407 (0) Decremented the semaphore (fd) by 1
+0081.408 (0) Semaphore (fd) unlocked
+0081.409 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0081.412 (0) The backup apparently succeeded and is now complete
+0081.413 (0) No email will/can be sent - the user has not configured an email address.
+0081.413 (0) La sauvegarde a réussie. Elle est maintenant terminée.
