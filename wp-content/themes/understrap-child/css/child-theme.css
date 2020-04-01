@@ -13915,15 +13915,15 @@ body * {
 }
 
 .site #wrapper-navbar {
-  z-index: 10000;
+  position: absolute;
   top: 0;
-}
-.site #wrapper-navbar .navbar {
-  transition: 0.5s linear;
+  z-index: 10000;
 }
 @media (max-width: 575.98px) {
-  .site #wrapper-navbar .navbar {
-    background-color: rgba(255, 255, 255, 0.85);
+  .site #wrapper-navbar {
+    position: fixed;
+    top: unset;
+    bottom: 0;
   }
 }
 .site #wrapper-navbar .navbar .navbar-toggler {
@@ -13939,6 +13939,19 @@ body * {
 }
 .site #wrapper-navbar .navbar .navbar-nav li a {
   color: #45757D !important;
+}
+.site .fixed-header {
+  position: fixed !important;
+  background-color: rgba(255, 255, 255, 0.85);
+  animation: fadeInDown 0.3s ease-in;
+  transition: 0.3s ease-in-out;
+}
+.site .fixed-header:hover {
+  background-color: white;
+}
+.site .fixed-header .navbar .navbar-nav li {
+  margin-right: 8px !important;
+  font-size: 16px !important;
 }
 
 @media (max-width: 575.98px) {
@@ -13991,26 +14004,27 @@ body * {
     min-height: 100vh !important;
   }
 }
+#homeIntro .Title {
+  top: 250px;
+  left: 15px;
+}
 
 #accompagnementIntro {
   height: 100vh !important;
+  background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/background-accompagnement.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 @media (max-width: 575.98px) {
   #accompagnementIntro {
+    background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/background-accompagnement-mobile.jpg");
     height: inherit !important;
     min-height: 100vh !important;
   }
 }
-#accompagnementIntro-img {
-  background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_289742832_Preview.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-@media (max-width: 575.98px) {
-  #accompagnementIntro-img {
-    height: 50vh !important;
-  }
+#accompagnementIntro .Title {
+  left: 15px;
 }
 
 #accompagnement {
@@ -14022,16 +14036,37 @@ body * {
     min-height: 100vh !important;
   }
 }
+#accompagnement article {
+  height: 100% !important;
+}
+@media (max-width: 575.98px) {
+  #accompagnement article {
+    height: inherit !important;
+    min-height: 50vh !important;
+  }
+  #accompagnement article .block__primary {
+    height: inherit !important;
+    min-height: 50vh !important;
+  }
+}
 #accompagnement-img {
-  background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_227683862_Preview.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 @media (max-width: 575.98px) {
   #accompagnement-img {
-    height: 50vh !important;
+    height: inherit !important;
+    min-height: 50vh !important;
   }
+}
+#accompagnement-img img {
+  position: absolute;
+  max-width: unset;
+  height: 100%;
 }
 
 #approchesIntro {
@@ -14084,9 +14119,38 @@ body * {
     height: inherit !important;
     min-height: 100vh !important;
   }
+}
+#infos article {
+  height: 100% !important;
+}
+@media (max-width: 575.98px) {
   #infos article {
-    min-height: 25vh;
+    height: inherit !important;
+    min-height: 50vh !important;
   }
+  #infos article .block__primary {
+    height: inherit !important;
+    min-height: 50vh !important;
+  }
+}
+#infos-img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 575.98px) {
+  #infos-img {
+    height: inherit !important;
+    min-height: 50vh !important;
+  }
+}
+#infos-img img {
+  position: absolute;
+  max-width: unset;
+  height: 100%;
 }
 
 #changementCourtTerme {
@@ -14098,16 +14162,37 @@ body * {
     min-height: 100vh !important;
   }
 }
+#changementCourtTerme article {
+  height: 100% !important;
+}
+@media (max-width: 575.98px) {
+  #changementCourtTerme article {
+    height: inherit !important;
+    min-height: 50vh !important;
+  }
+  #changementCourtTerme article .block__primary {
+    height: inherit !important;
+    min-height: 50vh !important;
+  }
+}
 #changementCourtTerme-img {
-  background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_234707772_Preview.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 @media (max-width: 575.98px) {
   #changementCourtTerme-img {
-    height: 50vh !important;
+    height: inherit !important;
+    min-height: 50vh !important;
   }
+}
+#changementCourtTerme-img img {
+  position: absolute;
+  max-width: unset;
+  height: 100%;
 }
 
 #acteurDuChangement {
@@ -14119,16 +14204,37 @@ body * {
     min-height: 100vh !important;
   }
 }
+#acteurDuChangement article {
+  height: 100% !important;
+}
+@media (max-width: 575.98px) {
+  #acteurDuChangement article {
+    height: inherit !important;
+    min-height: 50vh !important;
+  }
+  #acteurDuChangement article .block__primary {
+    height: inherit !important;
+    min-height: 50vh !important;
+  }
+}
 #acteurDuChangement-img {
-  background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_290045565_Preview.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 @media (max-width: 575.98px) {
   #acteurDuChangement-img {
-    height: 50vh !important;
+    height: inherit !important;
+    min-height: 50vh !important;
   }
+}
+#acteurDuChangement-img img {
+  position: absolute;
+  max-width: unset;
+  height: 100%;
 }
 
 #homeApproches {
@@ -14142,7 +14248,8 @@ body * {
   #homeApproches {
     height: inherit !important;
     min-height: 100vh !important;
-    background-position: right;
+    background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/Groupe-de-masques-43@2x.jpg");
+    background-position: center;
   }
   #homeApproches article {
     height: 25vh;
@@ -14158,15 +14265,42 @@ body * {
     min-height: 100vh !important;
   }
 }
+#block-quisuisje article {
+  height: 100% !important;
+}
+@media (max-width: 575.98px) {
+  #block-quisuisje article {
+    height: inherit !important;
+    min-height: 50vh !important;
+  }
+  #block-quisuisje article .block__primary {
+    height: inherit !important;
+    min-height: 50vh !important;
+  }
+}
 #block-quisuisje-img {
-  background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/photoPatricia.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 @media (max-width: 575.98px) {
   #block-quisuisje-img {
-    height: 75vh !important;
+    height: inherit !important;
+    min-height: 50vh !important;
+  }
+}
+#block-quisuisje-img img {
+  position: absolute;
+  max-width: unset;
+  height: 100%;
+}
+@media (max-width: 575.98px) {
+  #block-quisuisje-img img {
+    max-width: 100%;
+    height: unset;
   }
 }
 
@@ -14196,16 +14330,37 @@ body * {
     min-height: 100vh !important;
   }
 }
+#situationAccompagnement article {
+  height: 100% !important;
+}
+@media (max-width: 575.98px) {
+  #situationAccompagnement article {
+    height: inherit !important;
+    min-height: 50vh !important;
+  }
+  #situationAccompagnement article .block__primary {
+    height: inherit !important;
+    min-height: 50vh !important;
+  }
+}
 #situationAccompagnement-img {
-  background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_311163647_Preview.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 @media (max-width: 575.98px) {
   #situationAccompagnement-img {
-    height: 50vh !important;
+    height: inherit !important;
+    min-height: 50vh !important;
   }
+}
+#situationAccompagnement-img img {
+  position: absolute;
+  max-width: unset;
+  height: 100%;
 }
 
 #hypnose {
@@ -14217,16 +14372,37 @@ body * {
     min-height: 100vh !important;
   }
 }
+#hypnose article {
+  height: 100% !important;
+}
+@media (max-width: 575.98px) {
+  #hypnose article {
+    height: inherit !important;
+    min-height: 50vh !important;
+  }
+  #hypnose article .block__primary {
+    height: inherit !important;
+    min-height: 50vh !important;
+  }
+}
 #hypnose-img {
-  background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_158982218_Preview.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 @media (max-width: 575.98px) {
   #hypnose-img {
-    height: 50vh !important;
+    height: inherit !important;
+    min-height: 50vh !important;
   }
+}
+#hypnose-img img {
+  position: absolute;
+  max-width: unset;
+  height: 100%;
 }
 
 #pnl {
@@ -14238,16 +14414,37 @@ body * {
     min-height: 100vh !important;
   }
 }
+#pnl article {
+  height: 100% !important;
+}
+@media (max-width: 575.98px) {
+  #pnl article {
+    height: inherit !important;
+    min-height: 50vh !important;
+  }
+  #pnl article .block__primary {
+    height: inherit !important;
+    min-height: 50vh !important;
+  }
+}
 #pnl-img {
-  background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_272679579_Preview.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 @media (max-width: 575.98px) {
   #pnl-img {
-    height: 50vh !important;
+    height: inherit !important;
+    min-height: 50vh !important;
   }
+}
+#pnl-img img {
+  position: absolute;
+  max-width: unset;
+  height: 100%;
 }
 
 #coaching {
@@ -14257,19 +14454,39 @@ body * {
   #coaching {
     height: inherit !important;
     min-height: 100vh !important;
-    background-position: right;
+  }
+}
+#coaching article {
+  height: 100% !important;
+}
+@media (max-width: 575.98px) {
+  #coaching article {
+    height: inherit !important;
+    min-height: 50vh !important;
+  }
+  #coaching article .block__primary {
+    height: inherit !important;
+    min-height: 50vh !important;
   }
 }
 #coaching-img {
-  background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_234750128_Preview.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
 }
 @media (max-width: 575.98px) {
   #coaching-img {
-    height: 50vh !important;
+    height: inherit !important;
+    min-height: 50vh !important;
   }
+}
+#coaching-img img {
+  position: absolute;
+  max-width: unset;
+  height: 100%;
 }
 
 #formContact {
@@ -14289,19 +14506,39 @@ body * {
   #lieu {
     height: inherit !important;
     min-height: 100vh !important;
-    background-position: right;
   }
 }
-#lieu-img {
-  background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/Bureau.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+#lieu article {
+  height: 100% !important;
 }
 @media (max-width: 575.98px) {
-  #lieu-img {
-    height: 50vh !important;
+  #lieu article {
+    height: inherit !important;
+    min-height: 50vh !important;
   }
+  #lieu article .block__primary {
+    height: inherit !important;
+    min-height: 50vh !important;
+  }
+}
+#lieu #wpgmza_map {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 575.98px) {
+  #lieu #wpgmza_map {
+    height: inherit !important;
+    min-height: 50vh !important;
+  }
+}
+#lieu #wpgmza_map img {
+  position: absolute;
+  max-width: unset;
+  height: 100%;
 }
 
 .block__primary {
@@ -14368,13 +14605,13 @@ body * {
 }
 
 .btn-tertiary {
-  color: #D1E0D3;
-  border-color: #D1E0D3;
+  color: #D1E0D3 !important;
+  border-color: #D1E0D3 !important;
 }
 .btn-tertiary:hover {
   color: #27455C !important;
-  background-color: #D1E0D3;
-  border-color: none;
+  background-color: #D1E0D3 !important;
+  border-color: none !important;
 }
 
 .entry-footer {
@@ -14403,7 +14640,7 @@ body * {
 #accompagnementIntro h1,
 #approchesIntro h1,
 #infosIntro h1 {
-    font-size: 32px;
+    font-size: 25px;
   }
 }
 
