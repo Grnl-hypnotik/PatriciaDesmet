@@ -14,3 +14,39 @@ $primary: #27455C;
 $secondary: #45757D;
 $tertiary: #D1E0D3;
 
+@mixin block_secondary {
+    min-height: 100vh !important;
+    & article {
+        height: inherit !important;
+        min-height: 50vh !important;
+        & .block__primary {
+            height: inherit !important;
+            min-height: 50vh !important;
+        }
+    }
+
+    @media (min-width: 992px) {
+        height: 100vh !important;
+        & article {
+            height: 100% !important;
+        }
+    }
+
+    &-img {
+        width: 100%;
+        min-height: 50vh !important;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        & img {
+            position: absolute;
+            max-width: unset;
+            height: 100%;
+        }
+
+        @media (min-width: 992px) {
+            height: 100% !important;
+        }
+    }
+}

@@ -21,7 +21,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<footer class="site-footer row" id="colophon">
 
-			<article class="col-6 col-md-2 offset-md-1">
+			<article class="col-6 col-md-5 offset-md-1 col-lg-2">
 
 				<h3 class="font-weight-bold text__color--tertiary">Menu</h3>
 
@@ -34,7 +34,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			</article>
 
-			<article class="col-6 col-md-2">
+			<article class="col-6 col-md-5 col-lg-2">
 
 				<h3 class="font-weight-bold text__color--tertiary">Contactez moi</h3>
 
