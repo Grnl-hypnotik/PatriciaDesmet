@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "gulp copy-assets",
-    "sass": "sass --watch ./sass/child-theme.scss:./css/child-theme.css"
+    "sass": "sass --watch ./sass/child-theme.scss:./css/child-theme.min.css --style compressed"
   },
   "repository": {
     "type": "git",

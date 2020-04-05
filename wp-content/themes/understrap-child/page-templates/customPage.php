@@ -10,7 +10,17 @@
 // Exit if accessed directly.
 defined( 'ABSPATH' ) || exit;
 
-get_header();
+if ( is_page('Accueil') ) {
+	get_header( 'primary' );
+  } elseif ( is_page('Accompagnement') ) {
+	get_header( 'primary' );
+  } elseif ( is_page('Approches') ) {
+	get_header( 'primary' );
+  } elseif ( is_page('Informations concrètes') ) {
+	get_header( 'primary' );
+  } else {
+	get_header();
+}
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 

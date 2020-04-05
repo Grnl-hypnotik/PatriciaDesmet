@@ -14050,9 +14050,27 @@ body * {
   background-color: #f1f1f1;
 }
 
+.ea-bootstrap form .selected-time {
+  background-color: #27455C !important;
+}
+.ea-bootstrap form .ui-datepicker .ui-datepicker-current-day {
+  background-color: #27455C !important;
+}
+.ea-bootstrap form p {
+  color: #27455C !important;
+}
+.ea-bootstrap form .ea-actions-group {
+  justify-content: flex-start !important;
+}
+
+.testimonial_rotator_wrap {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 #homeIntro {
   min-height: 100vh !important;
-  background-image: url("http://patriciadesmet/wp-content/uploads/2020/04/background-accueil-mobile-2.jpg");
+  background-image: url("https://preprod.patriciadesmet.fr/wp-content/uploads/2020/04/background-accueil-mobile-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -14070,7 +14088,7 @@ body * {
 }
 @media (min-width: 992px) {
   #homeIntro {
-    background-image: url("http://patriciadesmet/wp-content/uploads/2020/04/background-accueil.jpg");
+    background-image: url("https://preprod.patriciadesmet.fr/wp-content/uploads/2020/04/background-accueil.jpg");
     background-position: top;
   }
   #homeIntro .Title {
@@ -14200,7 +14218,7 @@ body * {
 
 #testimonial {
   height: 100vh !important;
-  background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_263258205_Preview.jpeg");
+  background-image: url("https://preprod.patriciadesmet.fr/wp-content/uploads/2020/03/AdobeStock_263258205_Preview.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -14217,7 +14235,7 @@ body * {
 
 #accompagnementIntro {
   min-height: 100vh !important;
-  background-image: url("http://patriciadesmet/wp-content/uploads/2020/04/background-accompagnement-mobile.jpg");
+  background-image: url("https://preprod.patriciadesmet.fr/wp-content/uploads/2020/04/background-accompagnement-mobile.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -14239,7 +14257,7 @@ body * {
 }
 @media (min-width: 992px) {
   #accompagnementIntro {
-    background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/background-accompagnement.jpg");
+    background-image: url("https://preprod.patriciadesmet.fr/wp-content/uploads/2020/03/background-accompagnement.jpg");
     background-position: top;
   }
   #accompagnementIntro .Title {
@@ -14325,7 +14343,7 @@ body * {
 
 #approchesIntro {
   min-height: 100vh !important;
-  background-image: url("http://patriciadesmet/wp-content/uploads/2020/04/background-approches-mobile.jpg");
+  background-image: url("https://preprod.patriciadesmet.fr/wp-content/uploads/2020/04/background-approches-mobile.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -14343,7 +14361,7 @@ body * {
 }
 @media (min-width: 992px) {
   #approchesIntro {
-    background-image: url("http://patriciadesmet/wp-content/uploads/2020/04/background-approches.jpg");
+    background-image: url("https://preprod.patriciadesmet.fr/wp-content/uploads/2020/04/background-approches.jpg");
     background-position: top;
   }
 }
@@ -14464,7 +14482,7 @@ body * {
 
 #homeApproches {
   height: 100vh !important;
-  background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/AdobeStock_287427042_Preview.jpeg");
+  background-image: url("https://preprod.patriciadesmet.fr/wp-content/uploads/2020/03/AdobeStock_287427042_Preview.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -14473,7 +14491,7 @@ body * {
   #homeApproches {
     height: inherit !important;
     min-height: 100vh !important;
-    background-image: url("http://patriciadesmet/wp-content/uploads/2020/03/Groupe-de-masques-43@2x.jpg");
+    background-image: url("https://preprod.patriciadesmet.fr/wp-content/uploads/2020/03/Groupe-de-masques-43@2x.jpg");
     background-position: center;
   }
   #homeApproches article {
@@ -14483,7 +14501,7 @@ body * {
 
 #infosIntro {
   min-height: 100vh !important;
-  background-image: url("http://patriciadesmet/wp-content/uploads/2020/04/background-infos-mobile.jpg");
+  background-image: url("https://preprod.patriciadesmet.fr/wp-content/uploads/2020/04/background-infos-mobile.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -14501,7 +14519,7 @@ body * {
 }
 @media (min-width: 992px) {
   #infosIntro {
-    background-image: url("http://patriciadesmet/wp-content/uploads/2020/04/background-infos.jpg");
+    background-image: url("https://preprod.patriciadesmet.fr/wp-content/uploads/2020/04/background-infos.jpg");
     background-position: top;
   }
 }
@@ -14552,6 +14570,10 @@ body * {
     height: inherit !important;
     min-height: 100vh !important;
   }
+}
+
+#formAppointments {
+  min-height: 100vh !important;
 }
 
 #lieu {
@@ -14689,7 +14711,6 @@ body * {
   font-family: "Montserrat", sans-serif;
   font-size: 32px;
   font-weight: 900 !important;
-  text-transform: uppercase;
   color: #27455C;
 }
 @media (min-width: 768px) {
@@ -14706,6 +14727,14 @@ body * {
 #approchesIntro h1,
 #infosIntro h1 {
     font-size: 80px;
+  }
+}
+@media (min-width: 1200px) {
+  #homeIntro h1,
+#accompagnementIntro h1,
+#approchesIntro h1,
+#infosIntro h1 {
+    font-size: 92px;
   }
 }
 

@@ -25,13 +25,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 <?php do_action( 'wp_body_open' ); ?>
 <div class="site position-relative" id="page">
 
-	<div class="logoSite">
-		<img src="http://patriciadesmet/wp-content/uploads/2020/04/LogoPat.png" alt="Logo Patricia">
+	<div class="logoSite d-none">
+		<img src="https://preprod.patriciadesmet.fr/wp-content/uploads/2020/04/LogoPat.png" alt="Logo Patricia">
 		<h6 class="mt-3">Hypnose - PNL - Coaching</h6>
 	</div>
 
 	<!-- ******************* The Navbar Area ******************* -->
-	<div class="w-100" id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
+	<div class="w-100 position-static" id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
 
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
@@ -43,7 +43,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<!-- Your site title as branding in the menu -->
 
-				<a class="navbar-brand d-lg-none" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><img src="http://patriciadesmet/wp-content/uploads/2020/04/logoPat-min.png" alt="logo Patricia mini"></a>
+				<a class="navbar-brand" rel="home" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" itemprop="url"><img src="https://preprod.patriciadesmet.fr/wp-content/uploads/2020/04/logoPat-min.png" alt="logo Patricia mini"></a>
 
 				<!-- end custom logo -->
 
